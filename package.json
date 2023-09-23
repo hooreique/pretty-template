@@ -1,0 +1,19 @@
+{
+    "name": "pretty-project",
+    "version": "1.0.0",
+    "description": "Pretty Project",
+    "type": "module",
+    "main": "src/main.mjs",
+    "scripts": {
+        "main": "node src/main.mjs",
+        "check": "prettier --check .",
+        "format": "prettier --write ."
+    },
+    "author": "hooreique",
+    "license": "ISC",
+    "keywords": [],
+    "packageManager": "pnpm@8.7.6",
+    "devDependencies": {
+        "prettier": "^3.0.3"
+    }
+}

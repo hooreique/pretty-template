@@ -1,0 +1,24 @@
+# EditorConfig is awesome: https://editorconfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space
+indent_size = tab
+tab_width = 4
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+charset = utf-8
+
+max_line_length = 80
+
+[src/**.{js,mjs}]
+# 이 아래부터는 단순 컨벤션 선언에 가깝습니다.
+# 대부분의 환경에서 기본적으로는 지원하지 않기 때문입니다.
+quote_type = single
+curly_bracket_next_line = false
+spaces_around_operators = false
+indent_brace_style = K&R
